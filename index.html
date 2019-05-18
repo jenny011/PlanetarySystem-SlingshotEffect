@@ -4,13 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PlanetarySystem-Home</title>
-    <style> body {padding: 0; margin: 0; overflow: hidden;} </style>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <style> body {padding: 0; margin: 0; overflow: hidden;} </style> -->
   </head>
-  <body style="background-color: black;">
-    <div style="font-size: 250%; font-style:thin; color: white; margin-top:18%; padding:0px;">
-      <div style="text-align: center;">Create your own planets by pressing the MOUSE</div>
-      <div style="text-align: center; margin-top:1%;">Launch voyagers from selected planets by pressing a KEY</div>
-      <div style="text-align: center; cursor:pointer; margin-top:4%; color:red;" onclick="window.location.href='interface/index.html'">I'm ready to start FLYBY!!</div>
+  <body>
+    <div id="wrapper">
+      <div id="line1">Create your own planets by pressing the MOUSE</div>
+      <div id="line2">Launch voyagers from selected planets by pressing a KEY</div>
+      <div id="button" onclick="window.location.href='Flyby/index.html'">I'm ready to start FLYBY!!</div>
+      <div id="button2" onclick="window.location.href='../index.html'">Back to home</div>
     </div>
   </body>
 </html>

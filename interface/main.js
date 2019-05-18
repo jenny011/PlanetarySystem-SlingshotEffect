@@ -2,7 +2,7 @@ let params = {
   debugMode: false,
   starMass: 1000000,
   starColor: "#FFBA33",
-  maxNumber: 1,
+  maxNumber: 8,
   planetMass: 100,
   planetColor: "#FFFFFF",
   voyagerColor: "#99BBFF"

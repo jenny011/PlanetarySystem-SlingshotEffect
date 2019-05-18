@@ -1,0 +1,40 @@
+html,body{
+margin:0%;
+padding:0%;
+overflow:hidden;
+}
+body{
+  background-color: black;
+}
+#wrapper{
+  font-size: 250%;
+  font-style:thin;
+  color: white;
+  margin-top:18%;
+  padding:0px;
+}
+#line1, #line2{
+  text-align: center;
+}
+#line2{
+  margin-top:1%;
+}
+#button{
+  text-align: center;
+  cursor:pointer;
+  margin-top:4%;
+  color:rgb(255,0,0);
+}
+#button:hover{
+  color:rgba(255,255,255);
+}
+
+#button2{
+  text-align: center;
+  cursor:pointer;
+  margin-top:10%;
+  color:rgb(255,255,255);
+}
+#button2:hover{
+  color:rgba(255,0,0);
+}
