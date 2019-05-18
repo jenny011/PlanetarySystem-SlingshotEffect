@@ -28,13 +28,3 @@ body{
 #button:hover{
   color:rgba(255,255,255);
 }
-
-#button2{
-  text-align: center;
-  cursor:pointer;
-  margin-top:10%;
-  color:rgb(255,255,255);
-}
-#button2:hover{
-  color:rgba(255,0,0);
-}
